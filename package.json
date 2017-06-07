@@ -1,0 +1,23 @@
+{
+  "name": "ws-intersect",
+  "version": "1.0.0",
+  "description": "Lanscape intersect C -> wsam program",
+  "main": "index.js",
+  "scripts": {
+    "build": "wa compile -o program.wasm program.c",
+    "test": "npm run build;node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/regou/ws-intersect.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/regou/ws-intersect/issues"
+  },
+  "homepage": "https://github.com/regou/ws-intersect#readme",
+  "devDependencies": {
+    "webassembly": "^0.11.0"
+  }
+}
