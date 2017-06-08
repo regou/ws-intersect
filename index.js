@@ -1,5 +1,5 @@
 require("webassembly")
-  .load("program.wasm")
+  .load("pp.wasm")
   .then(module => {
     console.log("result:" + module.exports.start());
   });

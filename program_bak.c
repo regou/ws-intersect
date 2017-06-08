@@ -1,10 +1,10 @@
-#include <webassembly.h>
+#include <stdio.h>
 #include <string.h>
 char arr[] = {'a','b','c'};
-export char start(int idx) {
+char start(int idx) {
   return sizeof(arr);
 }
 
-export char testpn(char pn) {
-  return getchar(pn);
+int main() {
+  return start(1);
 } 
